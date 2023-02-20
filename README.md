@@ -12,15 +12,15 @@ This was my first project using SQL libaries, so there was a bit of a learning c
 - sqlite3 
 
 ## Table of Contens:
-### Setup:
+- Setup
 
-### Users endpoints:
+- Users endpoints
 
-### Databse schemes:
+- Databse schemes
 
-### API:
+- API
 
-### Improvements:
+- Improvements
 
 ## Setup:
 
