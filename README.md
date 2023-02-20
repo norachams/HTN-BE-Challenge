@@ -6,7 +6,7 @@ This was my first project using SQL libaries, so there was a bit of a learning c
 - Link 3
 - Link 4
 
-#### Libraries and dependencies used:
+### Libraries and dependencies used:
 - Flask
 - Flask-SQLAlchemy for ORM
 - sqlite3 
@@ -22,18 +22,16 @@ This was my first project using SQL libaries, so there was a bit of a learning c
 
 ### Improvements:
 
+## Setup:
 
 
-## SETUP:
+## Users Endpoints:
 
 
-## USERS ENDPOINTS:
-
-
-## DATABASE SCHEMES:
+## Database Schemes:
 
 
 ## API:
 
 
-## IMPROVEMENTS:
+## Improvements:
