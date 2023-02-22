@@ -10,17 +10,6 @@ This was my first project using SQLite with Flask and making APIs, so there was 
 - sqlite3
 - Flask RESTful APIs 
 
-## Table of Contens:
-- Setup
-
-- Users endpoints
-
-- Databse schemes
-
-- API
-
-- Improvements
-
 ## Setup:
 
 Create and activate virtual environment using virtualenv
@@ -35,13 +24,26 @@ $ export FLASK_ENV=development
 $ flask run
 ```
 
-## Users Endpoints:
+## Users Endpoints and API routes:
+### All Users Endpoint
+``` GET localhost:5000/users ``` Retrieves data for all users
 
+### User Information Endpoint
+``` GET localhost:5000/users/20``` Retrieves all data for a given user, where '20' is the user_id
 
-## Database Schemes:
+### Updating User Input
+``` PUT http://127.0.0.1:5000/users/20``` Given data in a JSON format it will return the updated hacker data as the response.
 
+### Skills Endpoints
+``` GET localhost:5000/skills``` Retrieves all skills and their frequencies 
 
-## API:
+``` GET localhost:3000/skills/?min_frequency=5&max_frequency=10 ``` Retrieves all skills in between the two frequencies given
 
 
 ## Improvements:
+- Connecting the backend to a frontend so it can be easier to interact with the user endpoints
+- I would've liked to add some tests but I did not have time to make them 
+- Creating endpoints to retrieve the information of each hacker registred in a specific event. So if we want to see who registred for an event and how many hackers are registred. 
+- Adding some error handling troughout the api so we can get more specific error. 
+
+- If I had proir knowlodge of how to use SQL and rest APIs I feel like I would have finished it faster and implemented more endpoints to make it better. Nevertheless it was a great and fun learning opportunity. Thank you for your consideration. 
