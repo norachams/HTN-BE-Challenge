@@ -42,7 +42,7 @@ $ flask run
 
 ## Improvements:
 - Connecting the backend to a frontend so it can be easier to interact with the user endpoints
-- I would've liked to add some tests but I did not have time to make them 
+- I would've liked to add some tests but I did not have enough time 
 - Creating endpoints to retrieve the information of each hacker registred in a specific event. So if we want to see who registred for an event and how many hackers are registred. 
 - Adding some error handling troughout the api so we can get more specific error. 
 
