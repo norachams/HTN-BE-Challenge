@@ -23,6 +23,17 @@ This was my first project using SQLite with Flask and making APIs, so there was 
 
 ## Setup:
 
+Create and activate virtual environment using virtualenv
+```bash
+$ python -m venv python3-virtualenv
+$ source python3-virtualenv/bin/activate
+```
+
+Start flask development server
+```bash
+$ export FLASK_ENV=development
+$ flask run
+```
 
 ## Users Endpoints:
 
