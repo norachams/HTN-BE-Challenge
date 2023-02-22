@@ -26,18 +26,18 @@ $ flask run
 
 ## Users Endpoints and API routes:
 ### All Users Endpoint
-``` GET localhost:5000/users ``` Retrieves data for all users
+``` GET http://127.0.0.1:5000/users ``` Retrieves data for all users
 
 ### User Information Endpoint
-``` GET localhost:5000/users/20``` Retrieves all data for a given user, where '20' is the user_id
+``` GET http://127.0.0.1:5000/20``` Retrieves all data for a given user, where '20' is the user_id
 
 ### Updating User Input
 ``` PUT http://127.0.0.1:5000/users/20``` Given data in a JSON format it will return the updated hacker data as the response.
 
 ### Skills Endpoints
-``` GET localhost:5000/skills``` Retrieves all skills and their frequencies 
+``` GET http://127.0.0.1:5000/skills``` Retrieves all skills and their frequencies 
 
-``` GET localhost:3000/skills/?min_frequency=5&max_frequency=10 ``` Retrieves all skills in between the two frequencies given
+``` GET http://127.0.0.1:5000/skills?min_frequency=15&max_frequency=20``` Retrieves all skills in between the min and max frequencies given
 
 
 ## Improvements:
