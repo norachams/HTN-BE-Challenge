@@ -1,6 +1,6 @@
 # HTN-Backend-Challenge
 This is my submission for the Hack the North Backend challenge. 
-This was my first project using SQLite with Flask and making APIs, so there was a lot to learn. I learned alot building this and really enjoyed it. These are the links that helped me.
+This was my first project using SQLite with Flask and making API endpoints, so there was a lot to learn. I watched hours of lectures on the topics to help get familiar with the concepts and do this challenge. I really enjoyed building this and learned a lot. These are the links that helped me.
 - [To understand how to make a connection and create tables with our data](https://www.sqlitetutorial.net/sqlite-python/creating-tables/)
 - [To understand how to use SQLite with Flask](https://www.digitalocean.com/community/tutorials/how-to-use-an-sqlite-database-in-a-flask-application)
 - [To understand how to use Flask RESTful APIs](https://flask-restful.readthedocs.io/en/latest/)
@@ -41,9 +41,9 @@ $ flask run
 
 
 ## Improvements:
-- Connecting the backend to a frontend so it can be easier to interact with the user endpoints
-- I would've liked to add some tests but I did not have enough time 
-- Creating endpoints to retrieve the information of each hacker registred in a specific event. So if we want to see who registred for an event and how many hackers are registred. 
-- Adding some error handling troughout the api so we can get more specific error. 
+- Connecting the backend to a frontend so it can be easier to interact with the endpoints
+- I would've liked to add some tests but I did not have enough time.
+- Creating endpoints to retrieve the information of each hacker registered in a specific event. This way we can to see who and how many people registered for an event. 
+- Adding some error handling throughout the code. This ensures that when we run into an error we get a more specific idea of where its coming from and whats causing it. 
 
-- If I had proir knowlodge of how to use SQL and rest APIs I feel like I would have finished it faster and implemented more endpoints to make it better. Nevertheless it was a great and fun learning opportunity. Thank you for your consideration. 
+- If I had proir knowlodge of how to use SQL and rest APIs I feel like I would have finished it faster and implemented more endpoints and improvements to make it better. Nevertheless it was a great and fun learning opportunity. Thank you for your consideration. 
